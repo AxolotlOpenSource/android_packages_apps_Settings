@@ -29,7 +29,7 @@
     <string name="reset_all_settings">RESET ALL</string>
     <string name="reset_selected_settings">RESET SELECTED</string>
     <string name="reset_settings_title">Feature preferences</string>
-    <string name="reset_settings_summary">Reset XPerience feature preferences</string>
+    <string name="reset_settings_summary">Reset Axolotl feature preferences</string>
     <string name="keywords_settings_reset">reset</string>
 
     <!-- Hardware info -->
@@ -43,5 +43,9 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!--Axolotl custom settings -->
+    <string name="xperience_settings_title">Axolotl Settings</string>
+    <string name="xperience_settings_summary">Customize ROM features</string> 
 
 </resources>

@@ -34,6 +34,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- Axolotl version -->
+    <Preference
+        android:key="axolotl_firmware_version"
+        android:title="@string/axolotl_firmware_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionAxolotlDetailPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
@@ -73,4 +81,18 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
+    <!-- Build channel and codename -->
+    <Preference
+        android:key="os_build_codename"
+        android:title="@string/axolotl_build_code"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildCodeNamePreferenceController"/>
+
+    <Preference
+        android:key="os_build_channel"
+        android:title="@string/build_channel"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildChannelPreferenceController"/>
 </PreferenceScreen>

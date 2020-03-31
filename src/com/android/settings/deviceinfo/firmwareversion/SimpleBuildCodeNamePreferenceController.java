@@ -27,7 +27,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class SimpleBuildCodeNamePreferenceController extends BasePreferenceController {
 
-	private static final String KEY_Axolotl_CODENAME_PROP = "ro.axolotl.codename";
+	private static final String KEY_AXOLOTL_CODENAME_PROP = "ro.axolotl.codename";
 
     public SimpleBuildCodeNamePreferenceController(Context context,
             String preferenceKey) {
@@ -41,7 +41,7 @@ public class SimpleBuildCodeNamePreferenceController extends BasePreferenceContr
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_Axolotl_CODENAME_PROP,
+        return SystemProperties.get(KEY_AXOLOTL_CODENAME_PROP,
                 mContext.getString(R.string.unknown));
     }
 }

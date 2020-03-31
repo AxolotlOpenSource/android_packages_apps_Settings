@@ -15,14 +15,17 @@
 
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:gravity="center"
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:selectable="false">
 
-<ImageView
-	android:layout_width="match_parent"
- 	android:layout_height="match_parent"
-	android:src="@drawable/ic_axolotl_logo"
-	android:adjustViewBounds="true"
-	android:scaleType="centerInside" />
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scaleType="centerInside"
+			android:src="@drawable/ic_axolotl_logo" />
+
 </LinearLayout>

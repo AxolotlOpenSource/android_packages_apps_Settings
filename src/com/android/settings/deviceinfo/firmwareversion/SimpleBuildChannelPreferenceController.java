@@ -26,7 +26,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class SimpleBuildChannelPreferenceController extends BasePreferenceController {
 
-	private static final String KEY_Axolotl_CHANNEL_PROP = "ro.axolotl.channeltype";
+	private static final String KEY_AXOLOTL_CHANNEL_PROP = "ro.axolotl.channeltype";
 
     public SimpleBuildChannelPreferenceController(Context context,
             String preferenceKey) {
@@ -40,7 +40,7 @@ public class SimpleBuildChannelPreferenceController extends BasePreferenceContro
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_Axolotl_CHANNEL_PROP,
+        return SystemProperties.get(KEY_AXOLOTL_CHANNEL_PROP,
                 mContext.getString(R.string.unknown));
     }
 }

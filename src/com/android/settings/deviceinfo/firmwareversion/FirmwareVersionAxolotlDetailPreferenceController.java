@@ -41,7 +41,7 @@ public class FirmwareVersionAxolotlDetailPreferenceController extends BasePrefer
     private static final String TAG = "AxolotlVersionDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
-	private static final String KEY_Axolotl_VERSION_PROP = "ro.axolotl.version";
+	private static final String KEY_AXOLOTL_VERSION_PROP = "ro.axolotl.version";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -72,7 +72,7 @@ public class FirmwareVersionAxolotlDetailPreferenceController extends BasePrefer
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_Axolotl_VERSION_PROP,
+        return SystemProperties.get(KEY_AXOLOTL_VERSION_PROP,
                 mContext.getString(R.string.unknown));
     }
 
@@ -127,6 +127,6 @@ public class FirmwareVersionAxolotlDetailPreferenceController extends BasePrefer
     @Override
     public void copy() {
         Sliceable.setCopyContent(mContext, getSummary(),
-                mContext.getText(R.string.Axolotl_firmware_version));
+                mContext.getText(R.string.axolotl_firmware_version));
     }
 }

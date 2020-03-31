@@ -19,7 +19,19 @@
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="axolotl_build_code">Axolotl Codename</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="build_channel">Channel</String>
+    <string name="build_channel">Channel</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+    <!--Reset feature -->
+    <string name="reset_all_settings">RESET ALL</string>
+    <string name="reset_selected_settings">RESET SELECTED</string>
+    <string name="reset_settings_title">Feature preferences</string>
+    <string name="reset_settings_summary">Reset XPerience feature preferences</string>
+    <string name="keywords_settings_reset">reset</string>
+
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>

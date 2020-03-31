@@ -22,9 +22,9 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <PreferenceScreen
-        android:layout="@layout/axolotl_logo"
-        android:key="axolotl_logo" />
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="axolotl_logo"
+        android:layout="@layout/axolotl_logo" />
 
     <!-- Android version -->
     <Preference
